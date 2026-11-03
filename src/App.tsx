@@ -1,5 +1,5 @@
 import {useEffect,useState} from 'react';
-import {Box,LayoutDashboard,ClipboardList,Layers,Package,Calculator,ChartColumn,Plus,X,ArrowRight,Wallet,ClipboardClock,Pencil,LogOut} from 'lucide-react';
+import {Box,LayoutDashboard,ClipboardList,Layers,Package,Calculator,ChartColumn,Plus,X,ArrowRight,Wallet,ClipboardCheck as ClipboardClock,Pencil,LogOut} from 'lucide-react';
 import {supabase} from './supabase';
 import {initialStock,initialProducts,initialOrders,money,type Order,type Filament,type Product,type Status} from './data';
 const tabs=[['Inicio',LayoutDashboard],['Pedidos',ClipboardList],['Stock',Layers],['Productos',Package],['Costos',Calculator],['Estadísticas',ChartColumn]] as const;
